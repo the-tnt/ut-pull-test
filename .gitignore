@@ -1,0 +1,13 @@
+# CakePHP 2
+app/Config/core.php
+app/Config/database.php
+app/Plugin/
+app/Vendor/
+app/tmp/*
+vendors/*
+
+# IDE
+.idea
+*.sublime*
+
+# Custom
