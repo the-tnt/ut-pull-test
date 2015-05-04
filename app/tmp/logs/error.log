@@ -1,0 +1,45 @@
+2015/05/04 17:39:12 [error] 17168#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: ut-pull-test.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "ut-pull-test.loc"
+2015/05/04 17:44:01 [error] 17337#0: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  _cake_core_ cache was unable to write 'cake_dev_en-us' to File cache in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php on line 328
+PHP message: PHP Warning:  /home/tnt/www/ut-pull-test.loc/app/tmp/cache/persistent/ is not writable in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Engine/FileEngine.php on line 385
+PHP message: PHP Fatal error:  Uncaught exception 'CacheException' with message 'Cache engine "_cake_core_" is not properly configured. Ensure required extensions are installed, and credentials/permissions are correct' in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php:186
+Stack trace:
+#0 /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php(151): Cache::_buildEngine('_cake_core_')
+#1 /home/tnt/www/ut-pull-test.loc/app/Config/core.php(374): Cache::config('_cake_core_', Array)
+#2 /home/tnt/www/ut-pull-test.loc/lib/Cake/Core/Configure.php(72): include('/home/tnt/www/u...')
+#3 /home/tnt/www/ut-pull-test.loc/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#4 /home/tnt/www/ut-pull-test.loc/app/webroot/index.php(100): include('/home/tnt/www/u...')
+#5 {main}
+  thrown in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php on line 186" while reading response header from upstream, client: 127.0.0.1, server: ut-pull-test.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "ut-pull-test.loc"
+2015/05/04 17:47:04 [error] 17337#0: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  _cake_core_ cache was unable to write 'cake_dev_en-us' to File cache in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php on line 328
+PHP message: PHP Warning:  /home/tnt/www/ut-pull-test.loc/app/tmp/cache/persistent/ is not writable in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Engine/FileEngine.php on line 385
+PHP message: PHP Fatal error:  Uncaught exception 'CacheException' with message 'Cache engine "_cake_core_" is not properly configured. Ensure required extensions are installed, and credentials/permissions are correct' in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php:186
+Stack trace:
+#0 /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php(151): Cache::_buildEngine('_cake_core_')
+#1 /home/tnt/www/ut-pull-test.loc/app/Config/core.php(374): Cache::config('_cake_core_', Array)
+#2 /home/tnt/www/ut-pull-test.loc/lib/Cake/Core/Configure.php(72): include('/home/tnt/www/u...')
+#3 /home/tnt/www/ut-pull-test.loc/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#4 /home/tnt/www/ut-pull-test.loc/app/webroot/index.php(100): include('/home/tnt/www/u...')
+#5 {main}
+  thrown in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php on line 186" while reading response header from upstream, client: 127.0.0.1, server: ut-pull-test.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "ut-pull-test.loc"
+2015/05/04 17:47:06 [error] 17337#0: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  _cake_core_ cache was unable to write 'cake_dev_en-us' to File cache in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php on line 328
+PHP message: PHP Warning:  /home/tnt/www/ut-pull-test.loc/app/tmp/cache/persistent/ is not writable in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Engine/FileEngine.php on line 385
+PHP message: PHP Fatal error:  Uncaught exception 'CacheException' with message 'Cache engine "_cake_core_" is not properly configured. Ensure required extensions are installed, and credentials/permissions are correct' in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php:186
+Stack trace:
+#0 /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php(151): Cache::_buildEngine('_cake_core_')
+#1 /home/tnt/www/ut-pull-test.loc/app/Config/core.php(374): Cache::config('_cake_core_', Array)
+#2 /home/tnt/www/ut-pull-test.loc/lib/Cake/Core/Configure.php(72): include('/home/tnt/www/u...')
+#3 /home/tnt/www/ut-pull-test.loc/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#4 /home/tnt/www/ut-pull-test.loc/app/webroot/index.php(100): include('/home/tnt/www/u...')
+#5 {main}
+  thrown in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php on line 186" while reading response header from upstream, client: 127.0.0.1, server: ut-pull-test.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "ut-pull-test.loc"
+2015/05/04 17:47:06 [error] 17337#0: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  _cake_core_ cache was unable to write 'cake_dev_en-us' to File cache in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php on line 328
+PHP message: PHP Warning:  /home/tnt/www/ut-pull-test.loc/app/tmp/cache/persistent/ is not writable in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Engine/FileEngine.php on line 385
+PHP message: PHP Fatal error:  Uncaught exception 'CacheException' with message 'Cache engine "_cake_core_" is not properly configured. Ensure required extensions are installed, and credentials/permissions are correct' in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php:186
+Stack trace:
+#0 /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php(151): Cache::_buildEngine('_cake_core_')
+#1 /home/tnt/www/ut-pull-test.loc/app/Config/core.php(374): Cache::config('_cake_core_', Array)
+#2 /home/tnt/www/ut-pull-test.loc/lib/Cake/Core/Configure.php(72): include('/home/tnt/www/u...')
+#3 /home/tnt/www/ut-pull-test.loc/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#4 /home/tnt/www/ut-pull-test.loc/app/webroot/index.php(100): include('/home/tnt/www/u...')
+#5 {main}
+  thrown in /home/tnt/www/ut-pull-test.loc/lib/Cake/Cache/Cache.php on line 186" while reading response header from upstream, client: 127.0.0.1, server: ut-pull-test.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "ut-pull-test.loc"
