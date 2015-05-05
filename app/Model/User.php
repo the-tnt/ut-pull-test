@@ -37,6 +37,6 @@ class User extends AppModel {
      * @return string
      */
     public function getAvatarPath($id) {
-        return '/files/' . $id . '/avatar.jpg';
+        return 'files/' . $id . '/avatar.jpg';
     }
 }
