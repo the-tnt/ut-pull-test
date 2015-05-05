@@ -31,4 +31,12 @@ class User extends AppModel {
             ),
         ),
     );
+
+    /**
+     * @param int $id
+     * @return string
+     */
+    public function getAvatarPath($id) {
+        return '/files/' . $id . '/avatar.jpg';
+    }
 }

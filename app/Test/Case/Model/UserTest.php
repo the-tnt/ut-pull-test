@@ -27,4 +27,9 @@ class UserTest extends CakeTestCase {
         parent::tearDown();
     }
 
+    public function testGetAvatarPath() {
+        $result = $this->User->getAvatarPath(1);
+        $this->assertEquals('/files/1/avatar.jpg', $result);
+    }
+
 }
