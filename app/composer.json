@@ -1,0 +1,16 @@
+{
+	
+    "config": {
+        "vendor-dir": "Vendor"
+    },
+
+    "require": {
+        "monolog/monolog": "*"
+    },
+
+    "require-dev": {
+        "cakephp/debug_kit": "~2.2",
+        "phpunit/phpunit": "~3.7",
+        "xtntx/cake-jetbrains-test": "2.*"
+    }
+}

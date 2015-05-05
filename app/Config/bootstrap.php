@@ -69,6 +69,8 @@ Cache::config('default', array('engine' => 'File'));
  * CakePlugin::load('DebugKit'); //Loads a single plugin named DebugKit
  *
  */
+CakePlugin::load('DebugKit');
+CakePlugin::load('CakeJetbrainsTest');
 
 /**
  * To prefer app translation over plugin translation, you can set
@@ -112,3 +114,13 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+
+/**
+ * Load Composer autoload.
+ * Remove and re-prepend CakePHP's autoloader as Composer thinks it is the
+ * most important.
+ * See: http://goo.gl/kKVJO7
+ */
+require APP . 'Vendor/autoload.php';
+spl_autoload_unregister(array('App', 'load'));
+spl_autoload_register(array('App', 'load'), true, true);
