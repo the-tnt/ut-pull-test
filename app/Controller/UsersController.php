@@ -25,6 +25,8 @@ class UsersController extends AppController {
         $this->User->recursive = 0;
         $users = $this->Paginator->paginate();
 
+        $this->Session->setFlash(__('Here you have!'));
+
         $this->set('users', $users);
     }
 
