@@ -33,7 +33,8 @@ class User extends AppModel {
     );
 
     /**
-     * @param int $id
+     * Get user's avatar path relative to webroot
+     * @param int $id User ID
      * @return string
      */
     public function getAvatarPath($id) {
