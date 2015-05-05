@@ -53,7 +53,7 @@ class UsersController extends AppController {
                 $this->Session->setFlash(__('The user has been saved.'));
                 return $this->redirect(array('action' => 'index'));
             } else {
-                $this->Session->setFlash(__('The user could not be saved. Please, try again.'));
+                $this->Session->setFlash(__('The user could not be saved. Please, try and try again!'));
             }
         }
     }
@@ -74,7 +74,7 @@ class UsersController extends AppController {
                 $this->Session->setFlash(__('The user has been saved.'));
                 return $this->redirect(array('action' => 'index'));
             } else {
-                $this->Session->setFlash(__('The user could not be saved. Please, try again.'));
+                $this->Session->setFlash(__('The user could not be saved. Please, try and try again!'));
             }
         } else {
             $options = array('conditions' => array('User.' . $this->User->primaryKey => $id));
