@@ -32,6 +32,7 @@ class User extends AppModel {
         ),
     );
 
+
     /**
      * Get user's avatar path relative to webroot
      * @param int $id User ID
