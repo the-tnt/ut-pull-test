@@ -13,6 +13,8 @@ class User extends AppModel {
  */
     public $displayField = 'email';
 
+    public $avatarFilename = 'user-pic.jpg';
+
 /**
  * Validation rules
  *
@@ -39,6 +41,6 @@ class User extends AppModel {
      * @return string
      */
     public function getAvatarPath($id) {
-        return 'files/' . $id . '/avatar.jpg';
+        return 'files/' . $id . '/' . $this->avatarFilename;
     }
 }
