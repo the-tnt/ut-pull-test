@@ -28,7 +28,7 @@ class UserTest extends CakeTestCase {
     }
 
     public function testGetAvatarPath() {
-//        sleep(20);
+        sleep(20);
         $result = $this->User->getAvatarPath(1);
         $this->assertEquals('files/1/user-pic.jpg', $result);
     }
