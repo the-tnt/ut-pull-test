@@ -13,7 +13,7 @@ class User extends AppModel {
  */
     public $displayField = 'email';
 
-    public $avatarFilename = 'user-pic.jpg';
+    public $avatarFilename = 'avatar.jpg';
 
 /**
  * Validation rules
