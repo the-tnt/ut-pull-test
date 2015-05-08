@@ -15,11 +15,11 @@ class User extends AppModel {
 
     public $avatarFilename = 'avatar.jpg';
 
-/**
- * Validation rules
- *
- * @var array
- */
+    /**
+     * Validation rules
+     *
+     * @var array
+     */
     public $validate = array(
         'email' => array(
             'email' => array(
