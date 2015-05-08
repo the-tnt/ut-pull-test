@@ -9,11 +9,11 @@ App::uses('AppController', 'Controller');
  */
 class UsersController extends AppController {
 
-/**
- * Components
- *
- * @var array
- */
+    /**
+     * Components
+     *
+     * @var array
+     */
     public $components = array('Paginator', 'Session');
 
 /**
