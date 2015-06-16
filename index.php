@@ -1,5 +1,5 @@
 <?php
-/**
+/**4
  * Requests collector.
  * 
  *  This file collects requests if:
